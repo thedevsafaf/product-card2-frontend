@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- <a href="https://iconscout.com/icons/jbl" target="_blank">Jbl Icon</a> by <a href="https://iconscout.com/contributors/icon-mafia" target="_blank">Icon Mafia</a> -->
+    <link rel="icon" type="image/x-icon" href="./images/jbl.ico">
+    <title>JBL Headphones</title>
+</head>
+<body>
+    <section id="main">
+        <div class="card">
+            <div class="image-container">
+                <img src="./images/blue.png" alt="image" class="headset">
+            </div>
+            <h2>Rs 2899/-</h2>
+            <h3>JBL Live 660NC</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet earum pariatur atque odit deserunt!</p>
+            <p class="color-text">Choose your color</p>
+            <div class="color-container">
+                <div class="color" onclick="imageSlider('./images/blue.png');"></div>
+                <div class="color" onclick="imageSlider('./images/white.png');"></div>
+                <div class="color" onclick="imageSlider('./images/green.png');"></div>
+                <div class="color" onclick="imageSlider('./images/black.png');"></div>
+            </div>
+            <div class="button-container">
+                <a href="#" class="btn-1">Add to Cart</a>
+                <a href="#" class="btn-2">Buy Now</a>
+            </div>
+            <a href="#" class="btn-reviews">Read reviews</a>
+        </div>
+    </section>
+    <script>
+        function imageSlider(image){
+            document.querySelector('.headset').src = image;
+        }
+    </script>
+</body>
+</html>

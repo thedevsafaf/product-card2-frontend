@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap');
+
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    color: whitesmoke;
+    background: #161313;
+}
+
+#main{
+    padding: 3% 0 3% 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+
+#main .card{
+    background: #111;
+    width: 260px;
+    height: 530px;  
+    border-radius: 10px;
+    box-shadow: rgba(124, 116, 116, 0.24) 0px 3px 8px;
+}
+
+#main .card .image-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#main .card .image-container img{
+    max-width: 180px;
+    max-height: 180px;
+    padding: 15px;
+}
+
+#main .card h2{
+    color: wheat;
+    font-size: 26px;
+    font-weight: bold;
+    padding: 10px 0 0 16px;
+}
+
+#main .card h3{
+    font-size: 16px;
+    padding: 4px 0 0 16px;
+}
+
+#main .card p{
+    font-size: 12px;
+    padding: 4px 20px 4px 16px;
+    color: rgb(58, 71, 82);
+}
+
+#main .card p.color-text{
+    color: #565657f3;
+}
+
+#main .card .color-container{
+    display: flex;
+    padding: 4px 0 0 16px;
+    margin-bottom: 8px;
+}
+
+#main .card .color{
+    border-radius: 50px;
+    width: 20px;
+    height: 20px;
+    margin: 3px;
+    border: 2px solid #f7e4e4;
+    outline: 1px solid #3b2d2d;
+}
+
+#main .card .color:first-child{
+    background: #2284BC;
+}
+
+#main .card .color:nth-child(2){
+    background: white;
+}
+
+#main .card .color:nth-child(3){
+    background: #55BAA4;
+}
+
+#main .card .color:last-child{
+    background: black;
+}
+
+#main .card .button-container{
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+}
+
+#main .card .button-container .btn-1{
+    width: 100%;
+    background: #FBBF23;
+    color: #111;
+    display: block;
+    padding: 10px 16px;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+#main .card .button-container .btn-2{
+    width: 100%;
+    background: #FFF;
+    color: #111;
+    display: block;
+    padding: 10px 16px;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #75B0FA;
+}
+
+#main .card .btn-reviews{
+    padding: 16px 16px 0 16px;
+    font-size: 14px;
+    color: #75B0FA;
+}
